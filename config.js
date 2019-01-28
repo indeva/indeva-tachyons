@@ -85,7 +85,7 @@ module.exports = {
       "base--inverted": "#3f3f40",
       "action-primary": "#2463D0",
       "action-secondary": "#FFFFFF",
-      "emphasis": "#f71963",
+      "emphasis": "#F47D35",
       "disabled": "#EEEFF2",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -134,8 +134,8 @@ module.exports = {
     "text": {
       "action-primary": "#54627C",
       "action-secondary": "#54627C",
-      "link": "#54627C",
-      "emphasis": "#f71963",
+      "link": "#768196",
+      "emphasis": "#F47D35",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -150,12 +150,12 @@ module.exports = {
       "muted-5": "#f2f4f5"
     },
     "visited-text": {
-      "link": "#0c389f",
+      "link": "#768196",
     },
     "hover-text": {
       "action-primary": "#FFFFFF",
       "action-secondary": "#2463D0",
-      "link": "#0c389f",
+      "link": "#54627C",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -165,7 +165,7 @@ module.exports = {
       "warning--faded": "#fff6e0"
     },
     "active-text": {
-      "link": "#0c389f",
+      "link": "#F47D35",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -177,7 +177,7 @@ module.exports = {
     "border": {
       "action-primary": "#2463D0",
       "action-secondary": "#BBC0CB",
-      "emphasis": "#f71963",
+      "emphasis": "#F47D35",
       "disabled": "#DDE0E5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
