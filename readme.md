@@ -5,16 +5,16 @@
 Install
 
 ```sh
-npm i vtex-tachyons --save
+npm i @indeva/indeva-tachyons --save
 ```
 
 Add to your entry point
 
 ```js
-import 'vtex-tachyons'
+import '@indeva/indeva-tachyons'
 ```
 
-**IMPORTANT!**: You should **not** import `tachyons` in your project. It is already built as part of `vtex-tachyons`.
+**IMPORTANT!**: You should **not** import `tachyons` in your project. It is already built as part of `indeva-tachyons`.
 
 ## How to develop
 

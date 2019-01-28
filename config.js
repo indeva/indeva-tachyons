@@ -83,13 +83,13 @@ module.exports = {
     "background": {
       "base": "#ffffff",
       "base--inverted": "#3f3f40",
-      "action-primary": "#134cd8",
-      "action-secondary": "#eef3f7",
+      "action-primary": "#2463D0",
+      "action-secondary": "#FFFFFF",
       "emphasis": "#f71963",
-      "disabled": "#f2f4f5",
+      "disabled": "#EEEFF2",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
-      "danger": "#ff4c4c",
+      "danger": "#E45048",
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
@@ -100,8 +100,8 @@ module.exports = {
       "muted-5": "#f2f4f5"
     },
     "hover-background": {
-      "action-primary": "#0c389f",
-      "action-secondary": "#dbe9fd",
+      "action-primary": "#5082D9",
+      "action-secondary": "#FFFFFF",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -132,14 +132,14 @@ module.exports = {
       "muted-5": "#f2f4f5"
     },
     "text": {
-      "action-primary": "#134cd8",
-      "action-secondary": "#eef3f7",
-      "link": "#134cd8",
+      "action-primary": "#54627C",
+      "action-secondary": "#54627C",
+      "link": "#54627C",
       "emphasis": "#f71963",
       "disabled": "#979899",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
-      "danger": "#ff4c4c",
+      "danger": "#E9736D",
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
@@ -153,13 +153,13 @@ module.exports = {
       "link": "#0c389f",
     },
     "hover-text": {
-      "action-primary": "#0c389f",
-      "action-secondary": "#dbe9fd",
+      "action-primary": "#FFFFFF",
+      "action-secondary": "#2463D0",
       "link": "#0c389f",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
-      "danger": "#e13232",
+      "danger": "#ff4c4c",
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0"
@@ -175,13 +175,13 @@ module.exports = {
       "warning--faded": "#fff6e0"
     },
     "border": {
-      "action-primary": "#1346d8",
-      "action-secondary": "#eef3f7",
+      "action-primary": "#2463D0",
+      "action-secondary": "#BBC0CB",
       "emphasis": "#f71963",
-      "disabled": "#e3e4e6",
+      "disabled": "#DDE0E5",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
-      "danger": "#ff4c4c",
+      "danger": "#E45048",
       "danger--faded": "#ffe6e6",
       "warning": "#ffb100",
       "warning--faded": "#fff6e0",
@@ -192,8 +192,8 @@ module.exports = {
       "muted-5": "#f2f4f5"
     },
     "hover-border": {
-      "action-primary": "#0c389f",
-      "action-secondary": "#dbe9fd",
+      "action-primary": "#5082D9",
+      "action-secondary": "#5082D9",
       "emphasis": "#dd1659",
       "success": "#8bc34a",
       "success--faded": "#eafce3",
@@ -227,7 +227,7 @@ module.exports = {
       "base": "#3f3f40",
       "base--inverted": "#ffffff",
       "action-primary": "#ffffff",
-      "action-secondary": "#134cd8",
+      "action-secondary": "#54627C",
       "emphasis": "#ffffff",
       "disabled": "#979899",
       "success": "#ffffff",
@@ -244,7 +244,7 @@ module.exports = {
     },
     "hover-on": {
       "action-primary": "#ffffff",
-      "action-secondary": "#134cd8",
+      "action-secondary": "#54627C",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",
@@ -255,7 +255,7 @@ module.exports = {
     },
     "active-on": {
       "action-primary": "#ffffff",
-      "action-secondary": "#134cd8",
+      "action-secondary": "#54627C",
       "emphasis": "#ffffff",
       "success": "#ffffff",
       "success--faded": "#3f3f40",
@@ -265,8 +265,8 @@ module.exports = {
       "warning--faded": "#1a1a1a"
     },
   },
-  "borderWidths": [0, 0.125, 0.25, 0.5, 1, 2],
-  "borderRadius": [0, 0.125, 0.25, 0.5, 1],
+  "borderWidths": [0, 0.09, 0.25, 0.5, 1, 2],
+  "borderRadius": [0, 0.25, 0.5, 1, 2],
   "widths": [1, 2, 4, 8, 16],
   "maxWidths": [1, 2, 4, 8, 16, 32, 48, 64, 96],
   "heights": [1, 2, 4, 8, 16],
@@ -279,87 +279,87 @@ module.exports = {
     "measure": [30, 34, 20],
     "styles": {
       "heading-1": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "700",
         "fontSize": "3rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-2": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "700",
         "fontSize": "2.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-3": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "700",
         "fontSize": "1.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-4": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.5rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-5": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "heading-6": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "normal",
         "fontSize": "1.25rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "body": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "normal",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "small": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.875rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "mini": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
+        "fontFamily": "'Rubik', sans-serif",
         "fontWeight": "normal",
         "fontSize": "0.75rem",
         "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "500",
-        "fontSize": "1rem",
-        "textTransform": "uppercase",
+        "fontFamily": "'Rubik', sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "16px",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--small": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "500",
-        "fontSize": "0.875rem",
-        "textTransform": "uppercase",
+        "fontFamily": "'Rubik', sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "14px",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "action--large": {
-        "fontFamily": "Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "500",
-        "fontSize": "1.25rem",
-        "textTransform": "uppercase",
+        "fontFamily": "'Rubik', sans-serif",
+        "fontWeight": "normal",
+        "fontSize": "20px",
+        "textTransform": "initial",
         "letterSpacing": "0"
       },
       "code": {

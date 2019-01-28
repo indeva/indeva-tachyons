@@ -24,17 +24,3 @@ const generate = async () => {
 }
 
 generate()
-
-const generateScoped = async () => {
-  const namespace = 'onda-v3'
-  const scopedConfig = Object.assign({}, { namespace }, config)
-  const tachy = tachyonsGenerator(scopedConfig)
-
-  const css = await tachy.generate()
-  const cssMin = await tachy.generate({ minify: true })
-
-  fs.writeFileSync('tachyons-scoped.css', css)
-  fs.writeFileSync('tachyons-scoped.min.css', cssMin)
-}
-
-generateScoped()
