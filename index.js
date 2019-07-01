@@ -16,11 +16,12 @@ const generate = async () => {
 
   const docs = await tachy.docs()
   const css = await tachy.generate()
+  const cssCustom = fs.readFileSync('./tachyons.custom.css')
   const cssMin = await tachy.generate({ minify: true })
 
   fs.writeFileSync('index.html', docs)
-  fs.writeFileSync('tachyons.css', css)
-  fs.writeFileSync('tachyons.min.css', cssMin)
+  fs.writeFileSync('tachyons.css', css.concat(cssCustom))
+  fs.writeFileSync('tachyons.min.css', cssMin.concat(cssCustom))
 }
 
 generate()
